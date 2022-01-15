@@ -1,3 +1,142 @@
-h1{
-    background-color: blue;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+/* header first part  */
+
+.navigation-area{
+display: flex;
+align-items: center;
+margin-left: 121px;
+}
+
+header nav>ul{
+    display: flex;
+   
+}
+.menu-bar{
+    margin-left: 560px;
+    margin-right: 80px;
+}
+header nav>ul>li{
+    list-style: none;
+    margin: 1em;
+}
+header nav>ul>li>a{
+    text-decoration: none;
+}
+
+/* header second part  */
+
+.header-second{
+    display: flex;
+    margin-right:121px;
+    margin-left: 121px;
+}
+.influencer{
+  width: 582px;
+  height: 270px;
+  top:285px;
+  left: 120px;
+}
+.main-camera{
+    width: 440px;
+    height: 414px;
+    top: 211px;
+    margin-left: 200px;
+}
+.btn-arrow{
+    display: flex;
+    background-color: #E02C6D;
+    width: 125px;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid #E02C6D ;
+
+}
+#btn-1{
+    background-color: #E02C6D ;
+    color: white;
+    border: none;
+}
+/* logo section  */
+
+.logo{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 60px;
+    border: 1px solid ;
+    padding: 15px;
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+/* main section  */
+
+main>section>h1{
+    text-align: center;
+  margin-top: 200px;
+ color: #3A3A3A;}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.product-feature{
+ background-color: #FFFFFF;
+ box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+padding: 20px;
+margin: 20px;
+
+}
+.product-details{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.star{
+    color:#FB8200 ;
+}
+
+/* second section  */
+
+.submission{
+    padding-left: 600px;
+    margin-top: 100px;
+    size: 25px;
+    margin-bottom: 50px;
+}
+#submit{
+    background-color: #E02C6D ;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 4px;
+}
+/* this is footer part  */
+
+.footer{
+    background-color: #0A0826;
+    height: 250px;
+    padding-left: 600px;
+    padding-top: 50px;
+}
+.footer> h1{
+    color: #FFFFFF;
+}
+.footer> p{
+    color: #FFFFFF;
+}
+.footer span{
+  
+    color:white;
+}
+.social-service{
+    margin-right: 20px;
 }
